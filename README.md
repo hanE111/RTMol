@@ -23,7 +23,7 @@ To address these issues, we propose **RTMol**, a bidirectional alignment framewo
 
 The core idea of RTMol is to use a single LLM to serve two complementary roles: a **Captioner** and a **Generator**. We enforce consistency through a round-trip training process.
 
-![RTMol Framework](assets/framework.pdf)
+![RTMol Framework](assets/framework.png)
 
 ### Code
 

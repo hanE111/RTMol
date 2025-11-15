@@ -23,7 +23,7 @@
 
 RTMol 的核心思想是利用一个单一的 LLM 充当两个互补的角色：**Captioner**（描述生成器）和 **Generator**（分子生成器）。我们通过一个轮转训练过程来强制实现一致性：
 
-![RTMol 框架图](assets/framework.pdf)
+![RTMol 框架图](assets/framework.png)
 
 ### 代码
 
