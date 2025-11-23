@@ -9,7 +9,7 @@
 
 ---
 
-### Abstract
+## Abstract
 
 Aligning molecular sequence representations (e.g., SMILES notations) with textual descriptions is critical for applications spanning drug discovery, materials design, and automated chemical literature analysis. Existing methodologies typically treat molecular captioning (molecule-to-text) and text-based molecular design (text-to-molecule) as separate tasks, which leads to three key limitations:
 
@@ -19,21 +19,28 @@ Aligning molecular sequence representations (e.g., SMILES notations) with textua
 
 To address these issues, we propose **RTMol**, a bidirectional alignment framework that unifies molecular captioning and text-to-SMILES generation through self-supervised **round-trip learning**. Experiments demonstrate that RTMol enhances bidirectional alignment performance by up to **47%** across various LLMs.
 
-### Framework: Round-Trip Alignment
+## Framework: Round-Trip Alignment
 
 The core idea of RTMol is to use a single LLM to serve two complementary roles: a **Captioner** and a **Generator**. We enforce consistency through a round-trip training process.
 
 ![RTMol Framework](assets/framework.png)
 
-### Code
+## Code
 
-**Coming Soon**
+See [Usage](src/usage.md) for detailed instructions on how to use our code.
 
-We are cleaning and annotating the codebase and will release it shortly. Stay tuned!
-
-### How to Cite
+## How to Cite
 
 If you find our work useful in your research, please cite our paper:
 
 ```bibtex
-@inproceedings{}
+@misc{chen2025rtmolrethinkingmoleculetextalignment,
+      title={RTMol: Rethinking Molecule-text Alignment in a Round-trip View}, 
+      author={Letian Chen and Runhan Shi and Gufeng Yu and Yang Yang},
+      year={2025},
+      eprint={2511.12135},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2511.12135}, 
+}
+```
