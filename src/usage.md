@@ -233,6 +233,8 @@ To Use reward model, please change several files in `verl` repo:
 
 Run `phase_1.sh` and `phase_2.sh` cyclically to train ChemDFM. Other models can be trained in a similar way by changing base model.
 
+We reccommend using 8 H100/A800 GPUs for training.
+
 ## Evaluation
 
 Run `valid_final.py` to evaluate the model.
